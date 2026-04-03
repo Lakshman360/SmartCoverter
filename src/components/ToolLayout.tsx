@@ -18,7 +18,7 @@ export default function ToolLayout({ title, desc, icon: Icon, badge, children, f
   const { id } = useParams<{ id: string }>();
   const toolFromRegistry = useMemo(() => TOOLS.find(t => t.id === id), [id]);
 
-  const finalSeoTitle = toolFromRegistry?.seoTitle || `${title} - SmartConverter`;
+  const finalSeoTitle = toolFromRegistry?.seoTitle || `${title} - Zentoolbox`;
   const finalMetaDescription = toolFromRegistry?.metaDescription || desc;
   const finalKeywords = toolFromRegistry?.keywords || [];
   const finalContent = toolFromRegistry?.content;

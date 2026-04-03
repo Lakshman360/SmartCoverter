@@ -3,7 +3,7 @@ import { ShieldCheck } from "lucide-react";
 
 export default function Privacy() {
   useEffect(() => {
-    document.title = "Privacy Policy - SmartConverter";
+    document.title = "Privacy Policy - Zentoolbox";
   }, []);
 
   return (
@@ -21,7 +21,7 @@ export default function Privacy() {
           <div>
             <h3 className="text-emerald-900 font-bold text-lg mb-2">Short version:</h3>
             <p className="text-emerald-700 leading-relaxed font-medium">
-              SmartConverter does not collect, store, or transmit your files or data anywhere. All tools run entirely inside your browser.
+              Zentoolbox does not collect, store, or transmit your files or data anywhere. All tools run entirely inside your browser.
             </p>
           </div>
         </div>
@@ -29,12 +29,12 @@ export default function Privacy() {
         <div className="prose prose-slate max-w-none">
           <h2 className="text-2xl font-black text-slate-900 mb-4 tracking-tight">1. Introduction</h2>
           <p className="text-slate-600 mb-8 leading-relaxed">
-            Welcome to SmartConverter ("we," "us," or "our"). We are committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our website.
+            Welcome to Zentoolbox ("we," "us," or "our"). We are committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our website.
           </p>
 
           <h2 className="text-2xl font-black text-slate-900 mb-4 tracking-tight">2. Information We Do NOT Collect</h2>
           <p className="text-slate-600 mb-4 leading-relaxed">
-            Because SmartConverter's tools run entirely in your browser using JavaScript, we do <strong>not</strong> collect:
+            Because Zentoolbox's tools run entirely in your browser using JavaScript, we do <strong>not</strong> collect:
           </p>
           <ul className="list-disc pl-6 text-slate-600 mb-8 space-y-2">
             <li>Files you upload or process (they never leave your device)</li>
@@ -62,7 +62,7 @@ export default function Privacy() {
 
           <h2 className="text-2xl font-black text-slate-900 mb-4 tracking-tight">5. Contact Us</h2>
           <p className="text-slate-600 leading-relaxed">
-            If you have any questions about this Privacy Policy, please contact us at our contact page or email us at <strong>privacy@smartconverter.com</strong>.
+            If you have any questions about this Privacy Policy, please contact us at our contact page or email us at <strong>privacy@zentoolbox.com</strong>.
           </p>
         </div>
       </div>

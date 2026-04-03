@@ -10,7 +10,7 @@ export default function CompressImages() {
         
         <h2>Step-by-Step Guide</h2>
         <ol>
-          <li><strong>Choose a Tool:</strong> Use a reliable, browser-based tool like SmartConverter's Image Compressor.</li>
+          <li><strong>Choose a Tool:</strong> Use a reliable, browser-based tool like Zentoolbox's Image Compressor.</li>
           <li><strong>Upload Your Image:</strong> Select the image you want to compress from your device.</li>
           <li><strong>Adjust Settings:</strong> Use the quality slider to find the perfect balance between file size and image quality.</li>
           <li><strong>Download:</strong> Once satisfied, download your optimized image.</li>

@@ -27,7 +27,7 @@ export default function JSONMinifier() {
           <label className="text-xs font-bold text-slate-400 uppercase tracking-widest">Input JSON</label>
           <textarea
             className="w-full h-64 p-6 bg-slate-50 border border-slate-200 rounded-3xl outline-none focus:border-indigo-500 transition-all font-mono text-sm resize-none"
-            placeholder='Paste your JSON here...\n\n{"name":"SmartConverter","version":1}'
+            placeholder='Paste your JSON here...\n\n{"name":"Zentoolbox","version":1}'
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />

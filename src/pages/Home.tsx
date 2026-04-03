@@ -10,7 +10,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    document.title = "SmartConverter - All-in-One Online Tools Hub";
+    document.title = "Zentoolbox - All-in-One Online Tools Hub";
   }, []);
 
   const featuredTools = useMemo(() => {

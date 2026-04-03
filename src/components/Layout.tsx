@@ -3,7 +3,7 @@ import { Menu, X, Heart } from "lucide-react";
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 
-const SITE_NAME = "SmartConverter";
+const SITE_NAME = "Zentoolbox";
 
 export default function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

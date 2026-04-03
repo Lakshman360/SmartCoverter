@@ -9,7 +9,7 @@ export default function Tools() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    document.title = "All Tools - SmartConverter";
+    document.title = "All Tools - Zentoolbox";
   }, []);
 
   const filteredTools = useMemo(() => {

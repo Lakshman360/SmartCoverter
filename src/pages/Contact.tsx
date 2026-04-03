@@ -8,7 +8,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({ name: "", email: "", subject: "feedback", message: "" });
 
   useEffect(() => {
-    document.title = "Contact Us - SmartConverter";
+    document.title = "Contact Us - Zentoolbox";
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
