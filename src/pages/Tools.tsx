@@ -9,7 +9,7 @@ export default function Tools() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    document.title = "All Tools - Zentoolbox";
+    document.title = "All Tools - ToolsMama";
   }, []);
 
   const filteredTools = useMemo(() => {
@@ -31,14 +31,14 @@ export default function Tools() {
   }, [filteredTools]);
 
   return (
-    <div className="bg-slate-50 min-h-screen">
+    <div className="bg-slate-50 dark:bg-slate-900 min-h-screen transition-colors duration-300">
       {/* Header */}
-      <section className="bg-white border-b border-slate-200 pt-16 pb-12">
+      <section className="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 pt-16 pb-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.h1 
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight"
+            className="text-4xl md:text-5xl font-black text-slate-900 dark:text-white mb-4 tracking-tight"
           >
             All Tools
           </motion.h1>
@@ -46,7 +46,7 @@ export default function Tools() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-slate-500 text-lg mb-8 max-w-2xl mx-auto"
+            className="text-slate-500 dark:text-slate-400 text-lg mb-8 max-w-2xl mx-auto"
           >
             Browse our complete collection of {TOOLS.length} 100% free, browser-based tools. No uploads, no servers, just instant results.
           </motion.p>
@@ -63,7 +63,7 @@ export default function Tools() {
             <input
               type="text"
               placeholder="Search tools by name or description..."
-              className="w-full pl-12 pr-6 py-4 bg-slate-50 border-2 border-slate-200 rounded-2xl text-lg focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 outline-none transition-all shadow-sm"
+              className="w-full pl-12 pr-6 py-4 bg-slate-50 dark:bg-slate-900 border-2 border-slate-200 dark:border-slate-700 rounded-2xl text-lg focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 outline-none transition-all shadow-sm text-slate-900 dark:text-white placeholder-slate-400"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
@@ -91,8 +91,8 @@ export default function Tools() {
                     <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${cat.color}`}>
                       <cat.icon size={20} />
                     </div>
-                    <h2 className="text-2xl font-black text-slate-900 tracking-tight">{cat.name}</h2>
-                    <div className="h-px bg-slate-200 flex-1 ml-4" />
+                    <h2 className="text-2xl font-black text-slate-900 dark:text-white tracking-tight">{cat.name}</h2>
+                    <div className="h-px bg-slate-200 dark:bg-slate-700 flex-1 ml-4" />
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -105,17 +105,17 @@ export default function Tools() {
                       >
                         <Link
                           to={`/tool/${tool.id}`}
-                          className="group block bg-white border border-slate-200 rounded-3xl p-6 hover:border-indigo-500 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all active:scale-[0.98]"
+                          className="group block bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-6 hover:border-blue-500 dark:hover:border-blue-500 hover:shadow-2xl hover:shadow-blue-500/10 transition-all active:scale-[0.98]"
                         >
                           <div className="flex items-center gap-5">
-                            <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 transition-transform group-hover:scale-110 ${cat.color || "bg-slate-100 text-slate-600"}`}>
+                            <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 transition-transform group-hover:scale-110 ${cat.color || "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400"}`}>
                               <tool.icon size={28} />
                             </div>
                             <div className="flex-1 min-w-0">
-                              <h3 className="font-bold text-slate-900 text-lg mb-1 group-hover:text-indigo-600 transition-colors">{tool.name}</h3>
-                              <p className="text-slate-500 text-sm line-clamp-2 leading-relaxed">{tool.description}</p>
+                              <h3 className="font-bold text-slate-900 dark:text-white text-lg mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{tool.name}</h3>
+                              <p className="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 leading-relaxed">{tool.description}</p>
                             </div>
-                            <div className="text-slate-300 group-hover:text-indigo-500 group-hover:translate-x-1 transition-all">
+                            <div className="text-slate-300 dark:text-slate-600 group-hover:text-blue-500 dark:group-hover:text-blue-400 group-hover:translate-x-1 transition-all">
                               <ArrowRight size={20} />
                             </div>
                           </div>
@@ -143,16 +143,16 @@ export default function Tools() {
       </div>
 
       {/* CTA Section */}
-      <section className="bg-indigo-600 py-16 text-white text-center">
+      <section className="bg-blue-600 py-16 text-white text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Zap className="mx-auto mb-6 text-indigo-200" size={48} />
+          <Zap className="mx-auto mb-6 text-blue-200" size={48} />
           <h2 className="text-3xl font-black mb-4">Need a specific tool?</h2>
-          <p className="text-indigo-100 mb-8 max-w-xl mx-auto">
+          <p className="text-blue-100 mb-8 max-w-xl mx-auto">
             We're constantly adding new tools. If you can't find what you're looking for, let us know!
           </p>
           <Link 
             to="/contact" 
-            className="inline-flex items-center gap-2 px-8 py-3 bg-white text-indigo-600 rounded-full font-bold hover:bg-indigo-50 transition-colors shadow-lg"
+            className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-600 rounded-full font-bold hover:bg-blue-50 transition-colors shadow-lg"
           >
             Request a Tool
           </Link>

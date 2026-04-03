@@ -22,7 +22,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: ImageIcon,
     component: lazy(() => import("../pages/tools/ImageCompressor")),
-    seoTitle: "Compress Image Online Free - Zentoolbox",
+    seoTitle: "Compress Image Online Free - ToolsMama",
     metaDescription: "Compress images online for free without losing quality. Reduce file size of JPEG, PNG, and WebP images instantly in your browser.",
     keywords: ["image compressor", "compress image online", "reduce image size", "free image compressor", "online image optimizer"],
     content: {
@@ -40,7 +40,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: Layers,
     component: lazy(() => import("../pages/tools/ImageResizer")),
-    seoTitle: "Resize Image Online Free - Zentoolbox",
+    seoTitle: "Resize Image Online Free - ToolsMama",
     metaDescription: "Resize images online for free. Change image dimensions (width and height) while maintaining aspect ratio. Fast and secure browser-based tool.",
     keywords: ["image resizer", "resize image online", "change image dimensions", "free image resizer", "online photo resizer"],
     content: {
@@ -58,7 +58,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: FileImage,
     component: lazy(() => import("../pages/tools/JPGtoPNG")),
-    seoTitle: "Convert JPG to PNG Online Free - Zentoolbox",
+    seoTitle: "Convert JPG to PNG Online Free - ToolsMama",
     metaDescription: "Convert JPG images to PNG format online for free. Maintain high quality and transparency. Fast, secure, and browser-based conversion.",
     keywords: ["jpg to png", "convert jpg to png", "online image converter", "free jpg to png", "image format converter"],
     content: {
@@ -76,7 +76,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: FileImage,
     component: lazy(() => import("../pages/tools/PNGtoJPG")),
-    seoTitle: "Convert PNG to JPG Online Free - Zentoolbox",
+    seoTitle: "Convert PNG to JPG Online Free - ToolsMama",
     metaDescription: "Convert PNG images to JPG format online for free. Reduce file size while maintaining good quality. Fast and secure browser-based tool.",
     keywords: ["png to jpg", "convert png to jpg", "online image converter", "free png to jpg", "reduce image file size"],
     content: {
@@ -94,7 +94,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: RotateCw,
     component: lazy(() => import("../pages/tools/ImageRotator")),
-    seoTitle: "Rotate Image Online Free - Zentoolbox",
+    seoTitle: "Rotate Image Online Free - ToolsMama",
     metaDescription: "Rotate images online for free. Quickly rotate your photos by 90, 180, or 270 degrees. Fast, secure, and works entirely in your browser.",
     keywords: ["image rotator", "rotate image online", "flip image online", "free image rotator", "online photo rotator"],
     content: {
@@ -112,7 +112,7 @@ export const TOOLS: Tool[] = [
     category: "image",
     icon: FileImage,
     component: lazy(() => import("../pages/tools/WebPConverter")),
-    seoTitle: "Convert to WebP Online Free - Zentoolbox",
+    seoTitle: "Convert to WebP Online Free - ToolsMama",
     metaDescription: "Convert images to WebP format online for free. Modern WebP images provide superior compression and quality for the web. Fast and secure browser-based tool.",
     keywords: ["webp converter", "convert to webp", "online webp converter", "free webp converter", "modern image format"],
     content: {
@@ -132,7 +132,7 @@ export const TOOLS: Tool[] = [
     category: "pdf",
     icon: FilePlus,
     component: lazy(() => import("../pages/tools/MergePDF")),
-    seoTitle: "Merge PDF Online Free - Zentoolbox",
+    seoTitle: "Merge PDF Online Free - ToolsMama",
     metaDescription: "Merge multiple PDF files into one online for free. Easily combine PDF documents in seconds. Fast, secure, and browser-based tool.",
     keywords: ["merge pdf", "combine pdf", "join pdf files", "free pdf merger", "online pdf joiner"],
     content: {
@@ -150,7 +150,7 @@ export const TOOLS: Tool[] = [
     category: "pdf",
     icon: Split,
     component: lazy(() => import("../pages/tools/SplitPDF")),
-    seoTitle: "Split PDF Online Free - Zentoolbox",
+    seoTitle: "Split PDF Online Free - ToolsMama",
     metaDescription: "Split PDF files online for free. Extract specific pages or split a large PDF into multiple smaller documents. Fast, secure, and browser-based tool.",
     keywords: ["split pdf", "extract pdf pages", "divide pdf", "free pdf splitter", "online pdf extractor"],
     content: {
@@ -170,7 +170,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: Hash,
     component: lazy(() => import("../pages/tools/WordCounter")),
-    seoTitle: "Word Counter Online Free - Zentoolbox",
+    seoTitle: "Word Counter Online Free - ToolsMama",
     metaDescription: "Count words, characters, and sentences online for free. Get real-time statistics for your text. Fast, secure, and easy to use.",
     keywords: ["word counter", "character counter", "sentence counter", "online word count", "free writing tool"],
     content: {
@@ -188,7 +188,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: Type,
     component: lazy(() => import("../pages/tools/CharacterCounter")),
-    seoTitle: "Character Counter Online Free - Zentoolbox",
+    seoTitle: "Character Counter Online Free - ToolsMama",
     metaDescription: "Count characters online for free. Get instant character counts with and without spaces. Perfect for social media and SEO meta tags.",
     keywords: ["character counter", "count characters", "online character count", "free character counter", "text length tool"],
     content: {
@@ -206,7 +206,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: CaseSensitive,
     component: lazy(() => import("../pages/tools/CaseConverter")),
-    seoTitle: "Case Converter Online Free - Zentoolbox",
+    seoTitle: "Case Converter Online Free - ToolsMama",
     metaDescription: "Convert text between uppercase, lowercase, sentence case, and more online for free. Fast, secure, and easy to use text formatting tool.",
     keywords: ["case converter", "uppercase to lowercase", "sentence case converter", "online text formatter", "free writing tool"],
     content: {
@@ -224,7 +224,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: AlignLeft,
     component: lazy(() => import("../pages/tools/RemoveSpaces")),
-    seoTitle: "Remove Extra Spaces Online Free - Zentoolbox",
+    seoTitle: "Remove Extra Spaces Online Free - ToolsMama",
     metaDescription: "Remove extra spaces, tabs, and newlines from your text online for free. Clean up messy text instantly. Fast and secure browser-based tool.",
     keywords: ["remove extra spaces", "clean text online", "text whitespace remover", "free text cleaner", "online formatting tool"],
     content: {
@@ -242,7 +242,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: SortAsc,
     component: lazy(() => import("../pages/tools/TextSorter")),
-    seoTitle: "Text Sorter Online Free - Zentoolbox",
+    seoTitle: "Text Sorter Online Free - ToolsMama",
     metaDescription: "Sort lines of text alphabetically or numerically online for free. Organize lists, names, and data in seconds. Fast and secure browser-based tool.",
     keywords: ["text sorter", "alphabetize list", "sort lines online", "free list organizer", "online data sorter"],
     content: {
@@ -260,7 +260,7 @@ export const TOOLS: Tool[] = [
     category: "text",
     icon: Copy,
     component: lazy(() => import("../pages/tools/DuplicateRemover")),
-    seoTitle: "Remove Duplicate Lines Online Free - Zentoolbox",
+    seoTitle: "Remove Duplicate Lines Online Free - ToolsMama",
     metaDescription: "Remove duplicate lines from your text online for free. Clean up lists and data by eliminating redundant entries. Fast and secure browser-based tool.",
     keywords: ["duplicate remover", "remove duplicate lines", "clean list online", "free data cleaner", "online text utility"],
     content: {
@@ -280,7 +280,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Braces,
     component: lazy(() => import("../pages/tools/JSONFormatter")),
-    seoTitle: "JSON Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "JSON Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format, validate, and beautify your JSON code online for free. Make messy JSON readable and easy to debug. Fast and secure browser-based tool.",
     keywords: ["json formatter", "beautify json", "json validator", "free json tool", "online developer utility"],
     content: {
@@ -298,7 +298,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: FileJson,
     component: lazy(() => import("../pages/tools/JSONMinifier")),
-    seoTitle: "JSON Minifier Online Free - Zentoolbox",
+    seoTitle: "JSON Minifier Online Free - ToolsMama",
     metaDescription: "Compress and minify your JSON code online for free. Reduce file size by removing whitespace and comments. Fast and secure browser-based tool.",
     keywords: ["json minifier", "compress json", "minify json online", "free developer tool", "reduce json file size"],
     content: {
@@ -316,7 +316,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Settings,
     component: lazy(() => import("../pages/tools/Base64Encoder")),
-    seoTitle: "Base64 Encoder Online Free - Zentoolbox",
+    seoTitle: "Base64 Encoder Online Free - ToolsMama",
     metaDescription: "Encode text to Base64 format online for free. Convert plain text to secure Base64 strings instantly. Fast and secure browser-based tool.",
     keywords: ["base64 encoder", "encode to base64", "text to base64", "free base64 tool", "online developer utility"],
     content: {
@@ -334,7 +334,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Settings,
     component: lazy(() => import("../pages/tools/Base64Decoder")),
-    seoTitle: "Base64 Decoder Online Free - Zentoolbox",
+    seoTitle: "Base64 Decoder Online Free - ToolsMama",
     metaDescription: "Decode Base64 strings back to plain text online for free. Quickly translate Base64 encoded data. Fast and secure browser-based tool.",
     keywords: ["base64 decoder", "decode from base64", "base64 to text", "free base64 tool", "online developer utility"],
     content: {
@@ -352,7 +352,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Globe,
     component: lazy(() => import("../pages/tools/URLEncoder")),
-    seoTitle: "URL Encoder Online Free - Zentoolbox",
+    seoTitle: "URL Encoder Online Free - ToolsMama",
     metaDescription: "Encode URL parameters online for free. Safely convert special characters for use in web addresses. Fast and secure browser-based tool.",
     keywords: ["url encoder", "encode url online", "percent encoding", "free url tool", "online developer utility"],
     content: {
@@ -370,7 +370,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Globe,
     component: lazy(() => import("../pages/tools/URLDecoder")),
-    seoTitle: "URL Decoder Online Free - Zentoolbox",
+    seoTitle: "URL Decoder Online Free - ToolsMama",
     metaDescription: "Decode URL-encoded parameters online for free. Convert percent-encoded strings back to readable text. Fast and secure browser-based tool.",
     keywords: ["url decoder", "decode url online", "percent decoding", "free url tool", "online developer utility"],
     content: {
@@ -388,7 +388,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Layout,
     component: lazy(() => import("../pages/tools/HTMLFormatter")),
-    seoTitle: "HTML Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "HTML Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your HTML code online for free. Make messy HTML readable and well-indented. Fast and secure browser-based tool.",
     keywords: ["html formatter", "beautify html", "html beautifier", "free html tool", "online developer utility"],
     content: {
@@ -406,7 +406,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Palette,
     component: lazy(() => import("../pages/tools/CSSFormatter")),
-    seoTitle: "CSS Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "CSS Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your CSS code online for free. Make messy CSS readable and well-organized. Fast and secure browser-based tool.",
     keywords: ["css formatter", "beautify css", "css beautifier", "free css tool", "online developer utility"],
     content: {
@@ -424,7 +424,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Terminal,
     component: lazy(() => import("../pages/tools/JSFormatter")),
-    seoTitle: "JavaScript Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "JavaScript Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your JavaScript code online for free. Make messy JS readable and well-indented. Fast and secure browser-based tool.",
     keywords: ["js formatter", "beautify javascript", "js beautifier", "free js tool", "online developer utility"],
     content: {
@@ -442,7 +442,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Database,
     component: lazy(() => import("../pages/tools/SQLFormatter")),
-    seoTitle: "SQL Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "SQL Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your SQL queries online for free. Make complex SQL readable and well-organized. Fast and secure browser-based tool.",
     keywords: ["sql formatter", "beautify sql", "sql beautifier", "free sql tool", "online developer utility"],
     content: {
@@ -460,7 +460,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: FileJson,
     component: lazy(() => import("../pages/tools/XMLFormatter")),
-    seoTitle: "XML Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "XML Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your XML code online for free. Make messy XML readable and well-indented. Fast and secure browser-based tool.",
     keywords: ["xml formatter", "beautify xml", "xml beautifier", "free xml tool", "online developer utility"],
     content: {
@@ -478,7 +478,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: FileText,
     component: lazy(() => import("../pages/tools/YAMLFormatter")),
-    seoTitle: "YAML Formatter & Beautifier Online Free - Zentoolbox",
+    seoTitle: "YAML Formatter & Beautifier Online Free - ToolsMama",
     metaDescription: "Format and beautify your YAML code online for free. Make messy YAML readable and well-indented. Fast and secure browser-based tool.",
     keywords: ["yaml formatter", "beautify yaml", "yaml beautifier", "free yaml tool", "online developer utility"],
     content: {
@@ -496,7 +496,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Edit3,
     component: lazy(() => import("../pages/tools/MarkdownPreview")),
-    seoTitle: "Markdown Previewer Online Free - Zentoolbox",
+    seoTitle: "Markdown Previewer Online Free - ToolsMama",
     metaDescription: "Live preview for your Markdown code online for free. See how your Markdown will look when rendered. Fast and secure browser-based tool.",
     keywords: ["markdown previewer", "markdown editor", "live markdown preview", "free markdown tool", "online developer utility"],
     content: {
@@ -514,7 +514,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Search,
     component: lazy(() => import("../pages/tools/RegexTester")),
-    seoTitle: "Regex Tester Online Free - Zentoolbox",
+    seoTitle: "Regex Tester Online Free - ToolsMama",
     metaDescription: "Test your regular expressions online for free. Validate regex patterns against test strings with real-time results. Fast and secure browser-based tool.",
     keywords: ["regex tester", "test regular expressions", "regex validator", "free regex tool", "online developer utility"],
     content: {
@@ -532,7 +532,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Clock,
     component: lazy(() => import("../pages/tools/CronGenerator")),
-    seoTitle: "Cron Expression Generator Online Free - Zentoolbox",
+    seoTitle: "Cron Expression Generator Online Free - ToolsMama",
     metaDescription: "Generate and explain cron expressions online for free. Easily create schedules for cron jobs with a simple interface. Fast and secure browser-based tool.",
     keywords: ["cron generator", "cron expression builder", "cron job scheduler", "free cron tool", "online developer utility"],
     content: {
@@ -550,7 +550,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Code,
     component: lazy(() => import("../pages/tools/HTMLEntityConverter")),
-    seoTitle: "HTML Entity Encoder & Decoder Online Free - Zentoolbox",
+    seoTitle: "HTML Entity Encoder & Decoder Online Free - ToolsMama",
     metaDescription: "Encode text to HTML entities or decode them back to plain text online for free. Fast, secure, and browser-based tool.",
     keywords: ["html entity converter", "encode html entities", "decode html entities", "free html tool", "online developer utility"],
     content: {
@@ -568,7 +568,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: ShieldCheck,
     component: lazy(() => import("../pages/tools/JWTDecoder")),
-    seoTitle: "JWT Decoder Online Free - Zentoolbox",
+    seoTitle: "JWT Decoder Online Free - ToolsMama",
     metaDescription: "Decode JSON Web Tokens (JWT) online for free. Inspect header and payload data securely. Fast and secure browser-based tool.",
     keywords: ["jwt decoder", "decode jwt token", "json web token inspector", "free jwt tool", "online developer utility"],
     content: {
@@ -586,7 +586,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Lock,
     component: lazy(() => import("../pages/tools/BcryptGenerator")),
-    seoTitle: "Bcrypt Hash Generator Online Free - Zentoolbox",
+    seoTitle: "Bcrypt Hash Generator Online Free - ToolsMama",
     metaDescription: "Generate secure Bcrypt hashes online for free. Create strong password hashes with adjustable salt rounds. Fast and secure browser-based tool.",
     keywords: ["bcrypt generator", "generate bcrypt hash", "password hashing", "free security tool", "online developer utility"],
     content: {
@@ -604,7 +604,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: ShieldCheck,
     component: lazy(() => import("../pages/tools/SHA256Generator")),
-    seoTitle: "SHA-256 Hash Generator Online Free - Zentoolbox",
+    seoTitle: "SHA-256 Hash Generator Online Free - ToolsMama",
     metaDescription: "Generate SHA-256 hashes online for free. Securely hash text and data using the SHA-256 algorithm. Fast and secure browser-based tool.",
     keywords: ["sha256 generator", "generate sha256 hash", "sha-256 calculator", "free security tool", "online developer utility"],
     content: {
@@ -622,7 +622,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: ShieldCheck,
     component: lazy(() => import("../pages/tools/MD5Generator")),
-    seoTitle: "MD5 Hash Generator Online Free - Zentoolbox",
+    seoTitle: "MD5 Hash Generator Online Free - ToolsMama",
     metaDescription: "Generate MD5 hashes online for free. Quickly compute the MD5 checksum of any text. Fast and secure browser-based tool.",
     keywords: ["md5 generator", "generate md5 hash", "md5 calculator", "free security tool", "online developer utility"],
     content: {
@@ -640,7 +640,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: ShieldCheck,
     component: lazy(() => import("../pages/tools/HMACGenerator")),
-    seoTitle: "HMAC Generator Online Free - Zentoolbox",
+    seoTitle: "HMAC Generator Online Free - ToolsMama",
     metaDescription: "Generate HMAC hashes online for free. Support for SHA-256, SHA-512, MD5, and more with a secret key. Fast and secure browser-based tool.",
     keywords: ["hmac generator", "generate hmac", "hmac sha256", "message authentication code", "free security tool"],
     content: {
@@ -658,7 +658,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Binary,
     component: lazy(() => import("../pages/tools/BinaryConverter")),
-    seoTitle: "Binary to Text Converter Online Free - Zentoolbox",
+    seoTitle: "Binary to Text Converter Online Free - ToolsMama",
     metaDescription: "Convert text to binary or binary to text online for free. Fast, accurate, and secure browser-based tool for developers and students.",
     keywords: ["binary converter", "text to binary", "binary to text", "binary translator", "free developer tool"],
     content: {
@@ -676,7 +676,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Binary,
     component: lazy(() => import("../pages/tools/HexConverter")),
-    seoTitle: "Hex Converter Online Free - Zentoolbox",
+    seoTitle: "Hex Converter Online Free - ToolsMama",
     metaDescription: "Convert between Hexadecimal, Decimal, Binary, and Octal online for free. Fast, accurate, and secure browser-based tool for developers.",
     keywords: ["hex converter", "hex to decimal", "decimal to hex", "hexadecimal translator", "free developer tool"],
     content: {
@@ -694,7 +694,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Binary,
     component: lazy(() => import("../pages/tools/DecimalConverter")),
-    seoTitle: "Decimal Converter Online Free - Zentoolbox",
+    seoTitle: "Decimal Converter Online Free - ToolsMama",
     metaDescription: "Convert between Decimal, Hexadecimal, Binary, and Octal online for free. Fast, accurate, and secure browser-based tool for developers.",
     keywords: ["decimal converter", "decimal to hex", "decimal to binary", "base 10 converter", "free developer tool"],
     content: {
@@ -712,7 +712,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Binary,
     component: lazy(() => import("../pages/tools/OctalConverter")),
-    seoTitle: "Octal Converter Online Free - Zentoolbox",
+    seoTitle: "Octal Converter Online Free - ToolsMama",
     metaDescription: "Convert between Octal, Decimal, Hexadecimal, and Binary online for free. Fast, accurate, and secure browser-based tool for developers.",
     keywords: ["octal converter", "octal to decimal", "octal to binary", "base 8 converter", "free developer tool"],
     content: {
@@ -730,7 +730,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Binary,
     component: lazy(() => import("../pages/tools/AsciiConverter")),
-    seoTitle: "ASCII to Text Converter Online Free - Zentoolbox",
+    seoTitle: "ASCII to Text Converter Online Free - ToolsMama",
     metaDescription: "Convert text to ASCII codes or ASCII to text online for free. Fast, accurate, and secure browser-based tool for developers.",
     keywords: ["ascii converter", "text to ascii", "ascii to text", "ascii code translator", "free developer tool"],
     content: {
@@ -748,7 +748,7 @@ export const TOOLS: Tool[] = [
     category: "developer",
     icon: Zap,
     component: lazy(() => import("../pages/tools/MorseCode")),
-    seoTitle: "Morse Code Translator Online Free - Zentoolbox",
+    seoTitle: "Morse Code Translator Online Free - ToolsMama",
     metaDescription: "Translate text to Morse code or decode Morse code back to text online for free. Fast, accurate, and secure browser-based tool.",
     keywords: ["morse code translator", "text to morse code", "decode morse code", "morse code generator", "free online tool"],
     content: {
@@ -768,7 +768,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Calendar,
     component: lazy(() => import("../pages/tools/AgeCalculator")),
-    seoTitle: "Age Calculator Online Free - Zentoolbox",
+    seoTitle: "Age Calculator Online Free - ToolsMama",
     metaDescription: "Calculate your exact age in years, months, and days online for free. Find out exactly how old you are today. Fast and secure browser-based tool.",
     keywords: ["age calculator", "calculate my age", "how old am i", "exact age calculator", "free online calculator"],
     content: {
@@ -786,7 +786,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Percent,
     component: lazy(() => import("../pages/tools/PercentageCalculator")),
-    seoTitle: "Percentage Calculator Online Free - Zentoolbox",
+    seoTitle: "Percentage Calculator Online Free - ToolsMama",
     metaDescription: "Calculate percentages, percentage change, and differences online for free. Solve math problems quickly and easily. Fast and secure browser-based tool.",
     keywords: ["percentage calculator", "calculate percentage", "percentage difference", "percentage change", "free online calculator"],
     content: {
@@ -804,7 +804,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: CreditCard,
     component: lazy(() => import("../pages/tools/EMICalculator")),
-    seoTitle: "EMI Calculator Online Free - Zentoolbox",
+    seoTitle: "EMI Calculator Online Free - ToolsMama",
     metaDescription: "Calculate your Equated Monthly Installment (EMI) for home, car, or personal loans online for free. Fast and secure browser-based tool.",
     keywords: ["emi calculator", "loan calculator", "monthly installment calculator", "mortgage calculator", "free financial tool"],
     content: {
@@ -822,7 +822,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Coins,
     component: lazy(() => import("../pages/tools/GSTCalculator")),
-    seoTitle: "GST Calculator Online Free - Zentoolbox",
+    seoTitle: "GST Calculator Online Free - ToolsMama",
     metaDescription: "Calculate Goods and Services Tax (GST) online for free. Easily add or remove GST from prices. Fast and secure browser-based tool.",
     keywords: ["gst calculator", "calculate gst", "add gst", "remove gst", "free tax calculator"],
     content: {
@@ -840,7 +840,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Tag,
     component: lazy(() => import("../pages/tools/DiscountCalculator")),
-    seoTitle: "Discount Calculator Online Free - Zentoolbox",
+    seoTitle: "Discount Calculator Online Free - ToolsMama",
     metaDescription: "Calculate the final price after applying a discount online for free. Find out how much you save during sales. Fast and secure browser-based tool.",
     keywords: ["discount calculator", "sale price calculator", "calculate savings", "percent off calculator", "free online calculator"],
     content: {
@@ -858,7 +858,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Activity,
     component: lazy(() => import("../pages/tools/BMICalculator")),
-    seoTitle: "BMI Calculator Online Free - Zentoolbox",
+    seoTitle: "BMI Calculator Online Free - ToolsMama",
     metaDescription: "Calculate your Body Mass Index (BMI) online for free. Check if you are at a healthy weight based on your height and weight. Fast and secure.",
     keywords: ["bmi calculator", "body mass index", "calculate bmi", "healthy weight calculator", "free health tool"],
     content: {
@@ -876,7 +876,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: Coins,
     component: lazy(() => import("../pages/tools/SalesTaxCalculator")),
-    seoTitle: "Sales Tax Calculator Online Free - Zentoolbox",
+    seoTitle: "Sales Tax Calculator Online Free - ToolsMama",
     metaDescription: "Calculate the total price including sales tax online for free. Easily find the tax amount and final cost. Fast and secure browser-based tool.",
     keywords: ["sales tax calculator", "calculate sales tax", "tax amount calculator", "total price calculator", "free financial tool"],
     content: {
@@ -894,7 +894,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: CreditCard,
     component: lazy(() => import("../pages/tools/TipCalculator")),
-    seoTitle: "Tip Calculator & Bill Splitter Online Free - Zentoolbox",
+    seoTitle: "Tip Calculator & Bill Splitter Online Free - ToolsMama",
     metaDescription: "Calculate restaurant tips and split the bill among friends online for free. Fast, accurate, and secure browser-based tool.",
     keywords: ["tip calculator", "bill splitter", "gratuity calculator", "split the check", "free online calculator"],
     content: {
@@ -912,7 +912,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: BarChart,
     component: lazy(() => import("../pages/tools/CompoundInterestCalculator")),
-    seoTitle: "Compound Interest Calculator Online Free - Zentoolbox",
+    seoTitle: "Compound Interest Calculator Online Free - ToolsMama",
     metaDescription: "Calculate the future value of your investments with compound interest online for free. Fast and secure browser-based financial tool.",
     keywords: ["compound interest calculator", "investment calculator", "future value calculator", "interest compounding", "free financial tool"],
     content: {
@@ -930,7 +930,7 @@ export const TOOLS: Tool[] = [
     category: "calculator",
     icon: BarChart,
     component: lazy(() => import("../pages/tools/SimpleInterestCalculator")),
-    seoTitle: "Simple Interest Calculator Online Free - Zentoolbox",
+    seoTitle: "Simple Interest Calculator Online Free - ToolsMama",
     metaDescription: "Calculate simple interest on loans or savings online for free. Find the total interest and final amount quickly. Fast and secure browser-based tool.",
     keywords: ["simple interest calculator", "calculate interest", "loan interest calculator", "savings interest", "free financial tool"],
     content: {
@@ -950,7 +950,7 @@ export const TOOLS: Tool[] = [
     category: "generator",
     icon: Lock,
     component: lazy(() => import("../pages/tools/PasswordGenerator")),
-    seoTitle: "Strong Password Generator Online Free - Zentoolbox",
+    seoTitle: "Strong Password Generator Online Free - ToolsMama",
     metaDescription: "Generate strong, random, and secure passwords online for free. Customize length and characters. Fast and secure browser-based tool.",
     keywords: ["password generator", "strong password creator", "random password generator", "secure password maker", "free security tool"],
     content: {
@@ -968,7 +968,7 @@ export const TOOLS: Tool[] = [
     category: "generator",
     icon: QrCode,
     component: lazy(() => import("../pages/tools/QRGenerator")),
-    seoTitle: "QR Code Generator Online Free - Zentoolbox",
+    seoTitle: "QR Code Generator Online Free - ToolsMama",
     metaDescription: "Create custom QR codes from text, URLs, or contact info online for free. Download high-quality QR code images instantly. Fast and secure.",
     keywords: ["qr code generator", "create qr code", "make qr code", "free qr code maker", "url to qr code"],
     content: {
@@ -986,7 +986,7 @@ export const TOOLS: Tool[] = [
     category: "generator",
     icon: Fingerprint,
     component: lazy(() => import("../pages/tools/UUIDGenerator")),
-    seoTitle: "UUID/GUID Generator Online Free - Zentoolbox",
+    seoTitle: "UUID/GUID Generator Online Free - ToolsMama",
     metaDescription: "Generate random, unique UUIDs (v4) and GUIDs online for free. Create single or multiple identifiers instantly. Fast and secure developer tool.",
     keywords: ["uuid generator", "guid generator", "random uuid", "create uuid v4", "free developer tool"],
     content: {
@@ -1004,7 +1004,7 @@ export const TOOLS: Tool[] = [
     category: "generator",
     icon: FileText,
     component: lazy(() => import("../pages/tools/LoremIpsum")),
-    seoTitle: "Lorem Ipsum Generator Online Free - Zentoolbox",
+    seoTitle: "Lorem Ipsum Generator Online Free - ToolsMama",
     metaDescription: "Generate standard Lorem Ipsum placeholder text online for free. Customize paragraphs, words, or lists for your design projects. Fast and easy.",
     keywords: ["lorem ipsum generator", "placeholder text", "dummy text generator", "web design text", "free lorem ipsum"],
     content: {
@@ -1024,7 +1024,7 @@ export const TOOLS: Tool[] = [
     category: "seo",
     icon: Tag,
     component: lazy(() => import("../pages/tools/MetaTagGenerator")),
-    seoTitle: "Meta Tag Generator Online Free - Zentoolbox",
+    seoTitle: "Meta Tag Generator Online Free - ToolsMama",
     metaDescription: "Create SEO-friendly HTML meta tags for your website online for free. Generate title, description, and keyword tags easily. Fast and secure.",
     keywords: ["meta tag generator", "seo tags creator", "html meta tags", "generate meta description", "free seo tool"],
     content: {
@@ -1042,7 +1042,7 @@ export const TOOLS: Tool[] = [
     category: "seo",
     icon: FileText,
     component: lazy(() => import("../pages/tools/RobotsGenerator")),
-    seoTitle: "Robots.txt Generator Online Free - Zentoolbox",
+    seoTitle: "Robots.txt Generator Online Free - ToolsMama",
     metaDescription: "Generate a custom robots.txt file for your website online for free. Control search engine crawlers and improve your SEO. Fast and easy.",
     keywords: ["robots.txt generator", "create robots.txt", "seo crawler control", "generate robots file", "free seo tool"],
     content: {
@@ -1060,7 +1060,7 @@ export const TOOLS: Tool[] = [
     category: "seo",
     icon: Search,
     component: lazy(() => import("../pages/tools/SitemapGenerator")),
-    seoTitle: "XML Sitemap Generator Online Free - Zentoolbox",
+    seoTitle: "XML Sitemap Generator Online Free - ToolsMama",
     metaDescription: "Create an XML sitemap for your website online for free. Help search engines index your pages faster. Fast, secure, and easy to use.",
     keywords: ["xml sitemap generator", "create sitemap", "generate xml sitemap", "seo sitemap tool", "free seo tool"],
     content: {
@@ -1080,7 +1080,7 @@ export const TOOLS: Tool[] = [
     category: "converter",
     icon: Ruler,
     component: lazy(() => import("../pages/tools/UnitConverter")),
-    seoTitle: "Unit Converter Online Free - Zentoolbox",
+    seoTitle: "Unit Converter Online Free - ToolsMama",
     metaDescription: "Convert between various units of measurement including length, weight, temperature, and volume online for free. Fast and accurate.",
     keywords: ["unit converter", "measurement converter", "convert units", "length converter", "weight converter", "free online converter"],
     content: {
@@ -1098,7 +1098,7 @@ export const TOOLS: Tool[] = [
     category: "converter",
     icon: Coins,
     component: lazy(() => import("../pages/tools/CurrencyConverter")),
-    seoTitle: "Currency Converter Online Free - Zentoolbox",
+    seoTitle: "Currency Converter Online Free - ToolsMama",
     metaDescription: "Convert currencies with real-time exchange rates online for free. Check the latest foreign exchange rates instantly. Fast and accurate.",
     keywords: ["currency converter", "exchange rate calculator", "foreign exchange", "convert money", "free currency tool"],
     content: {
@@ -1116,7 +1116,7 @@ export const TOOLS: Tool[] = [
     category: "converter",
     icon: Clock,
     component: lazy(() => import("../pages/tools/TimeConverter")),
-    seoTitle: "Time Unit Converter Online Free - Zentoolbox",
+    seoTitle: "Time Unit Converter Online Free - ToolsMama",
     metaDescription: "Convert between seconds, minutes, hours, days, and other time units online for free. Fast, accurate, and easy to use.",
     keywords: ["time converter", "convert time units", "seconds to minutes", "hours to days", "free online converter"],
     content: {
@@ -1134,7 +1134,7 @@ export const TOOLS: Tool[] = [
     category: "converter",
     icon: Palette,
     component: lazy(() => import("../pages/tools/ColorConverter")),
-    seoTitle: "Color Converter (HEX, RGB, HSL) Online Free - Zentoolbox",
+    seoTitle: "Color Converter (HEX, RGB, HSL) Online Free - ToolsMama",
     metaDescription: "Convert colors between HEX, RGB, and HSL formats online for free. Essential tool for web designers and developers. Fast and accurate.",
     keywords: ["color converter", "hex to rgb", "rgb to hex", "hsl converter", "web design color tool", "free developer tool"],
     content: {
@@ -1154,7 +1154,7 @@ export const TOOLS: Tool[] = [
     category: "misc",
     icon: Globe,
     component: lazy(() => import("../pages/tools/IPLookup")),
-    seoTitle: "IP Address Lookup Tool Online Free - Zentoolbox",
+    seoTitle: "IP Address Lookup Tool Online Free - ToolsMama",
     metaDescription: "Find the geographical location, ISP, and other details of any IP address online for free. Fast and accurate IP lookup tool.",
     keywords: ["ip lookup", "find ip address", "ip location", "ip geolocation", "free network tool"],
     content: {
@@ -1172,7 +1172,7 @@ export const TOOLS: Tool[] = [
     category: "misc",
     icon: Terminal,
     component: lazy(() => import("../pages/tools/UserAgentParser")),
-    seoTitle: "User Agent Parser Online Free - Zentoolbox",
+    seoTitle: "User Agent Parser Online Free - ToolsMama",
     metaDescription: "Parse and analyze browser user agent strings online for free. Extract browser, OS, and device information instantly. Fast developer tool.",
     keywords: ["user agent parser", "parse user agent", "browser string analyzer", "detect browser os", "free developer tool"],
     content: {
@@ -1190,7 +1190,7 @@ export const TOOLS: Tool[] = [
     category: "misc",
     icon: Dices,
     component: lazy(() => import("../pages/tools/RandomNumber")),
-    seoTitle: "Random Number Generator Online Free - Zentoolbox",
+    seoTitle: "Random Number Generator Online Free - ToolsMama",
     metaDescription: "Generate random numbers within a specific range online for free. Perfect for giveaways, games, and statistics. Fast and secure.",
     keywords: ["random number generator", "rng", "generate random number", "random picker", "free online tool"],
     content: {

@@ -39,7 +39,7 @@ export default function ToolContainer({
   const { id } = useParams<{ id: string }>();
   const toolFromRegistry = useMemo(() => TOOLS.find(t => t.id === id), [id]);
 
-  const finalSeoTitle = seoTitle || toolFromRegistry?.seoTitle || `${title} - Zentoolbox`;
+  const finalSeoTitle = seoTitle || toolFromRegistry?.seoTitle || `${title} - ToolsMama`;
   const finalMetaDescription = metaDescription || toolFromRegistry?.metaDescription || description;
   const finalKeywords = keywords || toolFromRegistry?.keywords || [];
   const finalContent = manualContent || toolFromRegistry?.content;

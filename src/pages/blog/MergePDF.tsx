@@ -10,7 +10,7 @@ export default function MergePDF() {
         
         <h2>Step-by-Step Guide</h2>
         <ol>
-          <li><strong>Choose a Tool:</strong> Use a reliable, browser-based tool like Zentoolbox's Merge PDF.</li>
+          <li><strong>Choose a Tool:</strong> Use a reliable, browser-based tool like ToolsMama's Merge PDF.</li>
           <li><strong>Upload Your Files:</strong> Select the PDF files you want to merge.</li>
           <li><strong>Arrange Files:</strong> Drag and drop your files into the desired order.</li>
           <li><strong>Merge:</strong> Click the "Merge" button and download your combined PDF.</li>

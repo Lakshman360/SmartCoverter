@@ -3,7 +3,7 @@ import { Volume2, Play, Square, Pause, ShieldCheck, Zap, Sliders, Globe } from "
 import ToolLayout from "../../components/ToolLayout";
 
 export default function TextToSpeech() {
-  const [text, setText] = useState("Welcome to Zentoolbox! This is a free, browser-based text to speech tool. You can type any text here and listen to it in your preferred voice.");
+  const [text, setText] = useState("Welcome to ToolsMama! This is a free, browser-based text to speech tool. You can type any text here and listen to it in your preferred voice.");
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selectedVoice, setSelectedVoice] = useState<number>(0);
   const [rate, setRate] = useState(1);

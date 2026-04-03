@@ -40,7 +40,7 @@ export default function MetaTagGenerator() {
               type="text"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
-              placeholder="Zentoolbox - All-in-One Tools"
+              placeholder="ToolsMama - All-in-One Tools"
               className="w-full px-6 py-4 bg-slate-50 border border-slate-200 rounded-2xl outline-none focus:border-indigo-500 transition-all font-medium"
             />
           </div>

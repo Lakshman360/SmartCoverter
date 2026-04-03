@@ -12,19 +12,19 @@ const BLOG_POSTS = [
 export default function Blog() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-black text-slate-900 mb-8">Zentoolbox Blog</h1>
+      <h1 className="text-4xl font-black text-slate-900 dark:text-white mb-8">ToolsMama Blog</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {BLOG_POSTS.map((post) => (
           <Link
             key={post.id}
             to={`/blog/${post.id}`}
-            className="bg-white border border-slate-200 rounded-3xl p-6 hover:border-indigo-500 hover:shadow-xl transition-all"
+            className="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-6 hover:border-blue-500 dark:hover:border-blue-500 hover:shadow-xl transition-all"
           >
-            <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mb-6">
+            <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 rounded-xl flex items-center justify-center mb-6">
               <BookOpen size={24} />
             </div>
-            <h2 className="text-xl font-bold text-slate-900 mb-2">{post.title}</h2>
-            <p className="text-slate-500 text-sm">Read more about {post.title.toLowerCase()}...</p>
+            <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-2">{post.title}</h2>
+            <p className="text-slate-500 dark:text-slate-400 text-sm">Read more about {post.title.toLowerCase()}...</p>
           </Link>
         ))}
       </div>

@@ -10,7 +10,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    document.title = "Zentoolbox - All-in-One Online Tools Hub";
+    document.title = "ToolsMama - All-in-One Free Online Tools";
   }, []);
 
   const featuredTools = useMemo(() => {
@@ -21,12 +21,12 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-20 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-indigo-50/50 to-white border-b border-slate-100">
+      <section className="relative overflow-hidden pt-20 pb-16 md:pt-32 md:pb-24 bg-gradient-to-b from-blue-50/50 to-white dark:from-slate-900 dark:to-slate-900 border-b border-slate-100 dark:border-slate-800 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-100 text-indigo-700 text-sm font-bold mb-8"
+            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 text-sm font-bold mb-8"
           >
             <Zap size={16} />
             100% Free & Browser-Based
@@ -36,11 +36,11 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 mb-6 leading-[1.1]"
+            className="text-5xl md:text-7xl font-black tracking-tight text-slate-900 dark:text-white mb-6 leading-[1.1]"
           >
-            All the tools you need,<br />
-            <span className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
-              right in your browser
+            ToolsMama – <br />
+            <span className="bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">
+              All-in-One Free Online Tools
             </span>
           </motion.h1>
 
@@ -48,9 +48,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-12 leading-relaxed"
+            className="text-lg md:text-xl text-slate-500 dark:text-slate-400 max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            No installs, no uploads to servers. Powerful tools that work entirely on your device — fast, private, and always free.
+            Convert, compress, calculate and generate tools instantly — no signup required. Powerful tools that work entirely on your device — fast, private, and always free.
           </motion.p>
 
           <motion.div
@@ -61,13 +61,13 @@ export default function Home() {
           >
             <Link
               to="/tools.html"
-              className="px-8 py-4 bg-indigo-600 text-white rounded-2xl font-bold text-lg hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-500/20 active:scale-95"
+              className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold text-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95"
             >
               Browse All Tools
             </Link>
             <a
               href="#featured"
-              className="px-8 py-4 bg-white border-2 border-slate-200 text-slate-700 rounded-2xl font-bold text-lg hover:border-indigo-500 hover:text-indigo-600 transition-all active:scale-95"
+              className="px-8 py-4 bg-white dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 rounded-2xl font-bold text-lg hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-all active:scale-95"
             >
               Featured Tools
             </a>
@@ -76,33 +76,33 @@ export default function Home() {
 
         {/* Decorative elements */}
         <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none -z-10">
-          <div className="absolute top-[10%] left-[5%] w-64 h-64 bg-indigo-200/20 rounded-full blur-3xl" />
-          <div className="absolute bottom-[10%] right-[5%] w-96 h-96 bg-violet-200/20 rounded-full blur-3xl" />
+          <div className="absolute top-[10%] left-[5%] w-64 h-64 bg-blue-200/20 rounded-full blur-3xl" />
+          <div className="absolute bottom-[10%] right-[5%] w-96 h-96 bg-blue-200/20 rounded-full blur-3xl" />
         </div>
       </section>
 
       {/* Stats Bar */}
-      <div className="border-b border-slate-100 bg-white">
+      <div className="border-b border-slate-100 dark:border-slate-800 bg-white dark:bg-slate-900 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-8 md:gap-24 py-8">
-            <StatItem num={`${TOOLS.length}`} label="Working Tools" />
-            <StatItem num="0" label="Uploads Required" />
-            <StatItem num="100%" label="Browser-Based" />
+            <StatItem num="100% Free" label="Tools" />
+            <StatItem num="No Signup" label="Required" />
+            <StatItem num="Secure" label="Processing" />
           </div>
         </div>
       </div>
 
       {/* Featured Tools Section */}
-      <section id="featured" className="py-20 md:py-32 bg-slate-50">
+      <section id="featured" className="py-20 md:py-32 bg-slate-50 dark:bg-slate-900/50 transition-colors duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div className="text-left">
-              <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 tracking-tight">Featured Tools</h2>
-              <p className="text-slate-500">Our most popular browser-based utilities</p>
+              <h2 className="text-3xl md:text-4xl font-black text-slate-900 dark:text-white mb-4 tracking-tight">Featured Tools</h2>
+              <p className="text-slate-500 dark:text-slate-400">Our most popular browser-based utilities</p>
             </div>
             <Link 
               to="/tools.html" 
-              className="group flex items-center gap-2 text-indigo-600 font-bold hover:text-indigo-700 transition-colors"
+              className="group flex items-center gap-2 text-blue-600 dark:text-blue-400 font-bold hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
             >
               View All Tools
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -123,17 +123,17 @@ export default function Home() {
                 >
                   <Link
                     to={`/tool/${tool.id}`}
-                    className="group block bg-white border border-slate-200 rounded-3xl p-6 hover:border-indigo-500 hover:shadow-2xl hover:shadow-indigo-500/10 transition-all active:scale-[0.98]"
+                    className="group block bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-6 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-2xl hover:shadow-blue-500/10 transition-all active:scale-[0.98]"
                   >
                     <div className="flex items-center gap-5">
-                      <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 transition-transform group-hover:scale-110 ${catInfo?.color || "bg-slate-100 text-slate-600"}`}>
+                      <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 transition-transform group-hover:scale-110 ${catInfo?.color || "bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300"}`}>
                         <tool.icon size={28} />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-bold text-slate-900 text-lg mb-1 group-hover:text-indigo-600 transition-colors">{tool.name}</h3>
-                        <p className="text-slate-500 text-sm line-clamp-2 leading-relaxed">{tool.description}</p>
+                        <h3 className="font-bold text-slate-900 dark:text-white text-lg mb-1 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">{tool.name}</h3>
+                        <p className="text-slate-500 dark:text-slate-400 text-sm line-clamp-2 leading-relaxed">{tool.description}</p>
                       </div>
-                      <div className="text-slate-300 group-hover:text-indigo-500 group-hover:translate-x-1 transition-all">
+                      <div className="text-slate-300 dark:text-slate-600 group-hover:text-blue-500 dark:group-hover:text-blue-400 group-hover:translate-x-1 transition-all">
                         <ArrowRight size={20} />
                       </div>
                     </div>
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="text-center">
             <Link
               to="/tools.html"
-              className="inline-flex items-center gap-2 px-10 py-4 bg-indigo-600 text-white rounded-2xl font-bold text-lg hover:bg-indigo-700 transition-all shadow-xl shadow-indigo-500/20 active:scale-95"
+              className="inline-flex items-center gap-2 px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold text-lg hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 active:scale-95"
             >
               Explore All {TOOLS.length} Tools
               <ArrowRight size={20} />
@@ -156,7 +156,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="py-24 bg-indigo-600 text-white overflow-hidden relative">
+      <section className="py-24 bg-blue-600 text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <FeatureItem 
@@ -178,7 +178,7 @@ export default function Home() {
         </div>
         {/* Decorative circles */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-indigo-400/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl" />
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-400/20 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl" />
       </section>
     </div>
   );
@@ -187,10 +187,10 @@ export default function Home() {
 function StatItem({ num, label }: { num: string; label: string }) {
   return (
     <div className="text-center">
-      <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent mb-1">
+      <div className="text-3xl md:text-4xl font-black bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent mb-1">
         {num}
       </div>
-      <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">
+      <div className="text-xs font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest">
         {label}
       </div>
     </div>
@@ -204,7 +204,7 @@ function FeatureItem({ icon: Icon, title, desc }: { icon: any; title: string; de
         <Icon size={32} />
       </div>
       <h3 className="text-2xl font-bold mb-4">{title}</h3>
-      <p className="text-indigo-100 leading-relaxed">{desc}</p>
+      <p className="text-blue-100 leading-relaxed">{desc}</p>
     </div>
   );
 }
